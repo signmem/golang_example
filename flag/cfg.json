@@ -1,0 +1,17 @@
+[
+  {
+	"uuid": "gz123",
+	"monNumber": 3,
+	"m3writeUrl": "http://gz.vclound.com/api/v1/query"
+  },
+  { 
+        "uuid": "ns123",
+        "monNumber": 3,
+	"m3writeUrl": "http://ns.vclound.com/api/v1/query"
+  },
+  {
+	"uuid": "sh123",
+	"monNumber": 5,
+	"m3writeUrl": "http://sh.vclound.com/api/v1/query"
+  }
+]

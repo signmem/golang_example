@@ -1,0 +1,21 @@
+// json
+
+{
+	"hostname": "test001",
+	"manager": ["user1", "user2", "user3"],
+	"info": {
+		"cpu": "x86_64",
+		"mem": "64gb"
+	}
+}
+
+// struct 
+
+type HostInfo struct {
+	Hostname string   `json:"hostname"`
+	Manager  []string `json:"manager"`
+	Info     struct {
+		CPU string `json:"cpu"`
+		Mem string `json:"mem"`
+	} `json:"info"`
+}
